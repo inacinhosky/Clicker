@@ -257,7 +257,6 @@ RectTransform:
   m_Children:
   - {fileID: 698555179}
   - {fileID: 1330999821}
-  - {fileID: 1511039562}
   - {fileID: 984316152}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -754,6 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Upgrade1
   casa: 10
   casaPorClick: 2
+  valorDaCasa: {fileID: 0}
 --- !u!1 &1330999820
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,7 +783,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1511039562}
   m_Father: {fileID: 375872599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -811,7 +812,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8835812701845349403, guid: 893d120a45c8c9346b36621971bb100a, type: 3}
+  m_Sprite: {fileID: -4781866805611424501, guid: 0896fe73e78a625459db61a5026ec6e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1025,11 +1026,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 375872599}
+  m_Father: {fileID: 1330999821}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 400}
+  m_AnchoredPosition: {x: 207.78, y: 0}
   m_SizeDelta: {x: 315.57, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511039563
