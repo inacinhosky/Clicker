@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Clickefeito : MonoBehaviour
 {
-    public float scaleDownFactor = 0.8f; // Quanto diminui
-    public float animationTime = 0.05f; // Quão rápido
+    public float scaleDownFactor = 0.8f; 
+    public float animationTime = 0.05f; 
     private Vector3 originalScale;
 
     void Start()
@@ -19,12 +19,12 @@ public class Clickefeito : MonoBehaviour
 
     IEnumerator ClickAnimation()
     {
-        // Diminui
+        
         transform.localScale = originalScale * scaleDownFactor;
 
         yield return new WaitForSeconds(animationTime);
 
-        // Volta ao tamanho original
+        
         transform.localScale = originalScale;
     }
 }

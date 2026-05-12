@@ -5,7 +5,7 @@ public class Mostrador : MonoBehaviour
 {
     public static int quantidade;
     public TMP_Text display;
-    public int quantidadeInterna;
+    public static int quantidadeInterna;
 
     void Update()
     {

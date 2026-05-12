@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class Click : MonoBehaviour
 {
+    public static int porClick = 1;
     public void ClickBotao()
     {
-        Mostrador.quantidade += 1;
+
+        Mostrador.quantidade += porClick;
     }
 }
