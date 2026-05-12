@@ -1,10 +1,11 @@
 using UnityEngine;
-
+using TMPro;
 public class Upgrade1 : MonoBehaviour
 {
     public int casa = 10;
     public int casaPorClick = 2;
-    
+    public TMP_Text valorDaCasa
+
     void Start()
     {
         
@@ -18,7 +19,13 @@ public class Upgrade1 : MonoBehaviour
 
     public void OnClick()
     {
-        Click.porClick += casaPorClick;
-        Mostrador.quantidade -= casa;
+        if (casa <= Mostrador.quantidade)
+        {
+
+            Click.porClick += casaPorClick;
+            Mostrador.quantidade -= casa;
+        }
+
+        
     }
 }

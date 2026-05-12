@@ -10,6 +10,6 @@ public class Mostrador : MonoBehaviour
     void Update()
     {
         quantidadeInterna = quantidade;
-        display.text = "Quantidades:" + quantidadeInterna;
+        display.text = "Quantidades: " + quantidadeInterna;
     }
 }
