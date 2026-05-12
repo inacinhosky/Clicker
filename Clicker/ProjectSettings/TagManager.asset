@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fundo
+    uniqueID: 2407259783
+    locked: 0
+  - name: clicker
+    uniqueID: 3487973799
+    locked: 0
+  - name: Upgrades
+    uniqueID: 4243908845
+    locked: 0
+  - name: Hud
+    uniqueID: 88649209
+    locked: 0
+  m_RenderingLayers:
+  - Default
