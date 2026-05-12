@@ -4,7 +4,7 @@ public class Upgrade1 : MonoBehaviour
 {
     public int casa = 10;
     public int casaPorClick = 2;
-    public TMP_Text valorDaCasa
+    public TMP_Text valorDaCasa;
 
     void Start()
     {
